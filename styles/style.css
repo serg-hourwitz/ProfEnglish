@@ -189,6 +189,10 @@ a {
     flex-wrap: wrap;
   }
 
+  .nav_bar {
+    flex-wrap: wrap;
+  }
+
   .header {
     margin-bottom: 50px;
   }
