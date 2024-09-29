@@ -1,4 +1,4 @@
-const arrowUp = document.getElementById('arrow');
+export const arrowUp = document.getElementById('arrow');
 
 // Обробник події прокрутки
 window.addEventListener('scroll', () => {
