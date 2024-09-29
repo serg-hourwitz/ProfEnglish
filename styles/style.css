@@ -23,6 +23,12 @@ body {
   border-bottom: 1px solid var(--color-secondary);
 }
 
+.logo-img {
+  width: 164px;
+  height: 26px;
+  margin-right: 10px;
+}
+
 a {
   text-decoration: none;
   color: var(--color-white);
@@ -44,12 +50,12 @@ a {
 .nav_item {
   list-style: none;
   font-size: 18px;
+  border-bottom: 1px solid var(--color-primary);
+  transition: .5s;
 }
 
 .nav_item:hover {
-  font-weight: bold;
-  transition: .5s;
-  text-shadow: 0 0 10px var(--color-white);
+  border-bottom: 1px solid var(--color-white);
 }
 
 .links-btn,
@@ -62,6 +68,7 @@ a {
 
 .links-btn {
   width: 164px;
+  margin-left: 10px;
   padding: 10px;
   font-weight: 900;
   text-align: center;
@@ -195,6 +202,14 @@ a {
 
   .header {
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  .logo-img,
+  .links-btn {
+    margin: 0;
   }
 }
 
