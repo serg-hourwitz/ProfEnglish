@@ -1,5 +1,13 @@
 :root {
+  /* colors */
   --color-white: #ffffff;
   --color-primary: #4fc87a;
   --color-secondary: #72D395;
+
+  /* fonts */
+  --fs-extra-large: 60px;
+  --fs-large: 40px;
+  --fs-big: 36px;
+  --fs-small: 18px;
+  --fs-extra-small: 11px;
 }
