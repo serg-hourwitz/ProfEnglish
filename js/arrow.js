@@ -2,7 +2,7 @@ export const arrowUp = document.getElementById('arrow');
 
 // Обробник події прокрутки
 window.addEventListener('scroll', () => {
-  if (window.scrollY >= 400) {
+  if (window.scrollY >= 450) {
     arrowUp.style.opacity = '0.7';
   } else {
     arrowUp.style.opacity = '0';
