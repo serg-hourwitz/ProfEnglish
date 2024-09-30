@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  margin-top: 50px;
+  padding-top: 50px;
   margin-bottom: 150px;
   padding-bottom: 50px;
   border-bottom: 1px solid var(--color-secondary);
