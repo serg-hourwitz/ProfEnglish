@@ -169,7 +169,7 @@ a {
   text-align: center;
   color: var(--color-white);
   font-size: var(--fs-small);
-  padding: 20px 0 20px;
+  padding: 20px 10px;
 }
 
 .link:hover {
