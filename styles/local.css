@@ -200,7 +200,8 @@ select {
 @media (max-width: 1200px) {
 
   .nav-menu {
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
   }
 
   .nav_bar {
@@ -231,6 +232,13 @@ select {
 
   .main-title {
     font-size: var(--fs-large);
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-menu {
+    justify-content: center;
+    gap: 15px;
   }
 }
 
