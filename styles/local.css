@@ -139,6 +139,7 @@ select {
   transition: ease-in-out .5s;
 }
 
+
 /* footer */
 
 .footer {
@@ -166,6 +167,7 @@ select {
   text-align: center;
   color: var(--color-white);
   font-size: var(--fs-small);
+  font-weight: bold;
   padding: 20px 10px;
   transition: ease-in-out .8s;
 }
