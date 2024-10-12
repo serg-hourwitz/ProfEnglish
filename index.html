@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProfEnglish</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/local.css" />
     <link rel="stylesheet" href="./styles/normalize.css" />
@@ -25,7 +31,7 @@
           </a>
         </div>
         <ul class="nav_bar" id="navBar"></ul>
-        
+
         <form action="#footer">
           <button class="links-btn">links</button>
         </form>
@@ -49,173 +55,387 @@
 
       <!-- Video -->
       <div class="videos">
-        <h2 class="day-number" id="1">Day 1</h2>
-        <h3 class="day-topic">Guide to IT resume writing</h3>
-        <div class="video" data-video-index="0">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 1"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64e8523d24488c0011838dac"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <!-- indicators -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active align-items-center justify-content-center"
+              style="
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+              aria-current="true"
+              aria-label="Slide 1"
+            >
+              1
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              2
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              3
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              4
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              5
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              6
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              7
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="7"
+              aria-label="Slide 8"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              8
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="8"
+              aria-label="Slide 9"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              9
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="9"
+              aria-label="Slide 10"
+              style="
+                width: 30px;
+                height: 30px;
+                text-indent: 0;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-weight: 900;
+              "
+            >
+              10
+            </button>
+          </div>
 
-        <h2 class="day-number" id="2">Day 2</h2>
-        <h3>Mastering job interview</h3>
-        <div class="video" data-video-index="1">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64ec42a07e77ed00105b2306"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="day-number" id="1">Day 1</h2>
+              <h3 class="day-topic">Guide to IT resume writing</h3>
+              <div class="video" data-video-index="0">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 1"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64e8523d24488c0011838dac"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
 
-        <h2 class="day-number" id="3">Day 3</h2>
-        <h3 class="day-topic">Teamwork Essentials in IT</h3>
-        <div class="video" data-video-index="2">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64ef0e1e37c8ad00124ff538"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
+            <div class="carousel-item">
+              <h2 class="day-number" id="2">Day 2</h2>
+              <h3>Mastering job interview</h3>
+              <div class="video" data-video-index="1">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64ec42a07e77ed00105b2306"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
+            <div class="carousel-item">
+              <h2 class="day-number" id="3">Day 3</h2>
+              <h3 class="day-topic">Teamwork Essentials in IT</h3>
+              <div class="video" data-video-index="2">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64ef0e1e37c8ad00124ff538"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
+            <div class="carousel-item">
+              <h2 class="day-number" id="4">Day 4</h2>
+              <h3 class="day-topic">
+                Effective communication in the IT workplace
+              </h3>
+              <div class="video" data-video-index="3">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64f04ac9a6a18b0018154af6"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
+            <div class="carousel-item">
+              <h2 class="day-number" id="5">Day 5</h2>
+              <h3 class="day-topic">Email communication skills in IT</h3>
+              <div class="video" data-video-index="4">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64f188d5fe7b2a0013d2f96e"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
+            <div class="carousel-item">
+              <h2 class="day-number" id="6">Day 6</h2>
+              <h3 class="day-topic">Understanding SRS</h3>
+              <div class="video" data-video-index="5">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64f57fc5c39b0b0011ef4679"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
+            <div class="carousel-item">
+              <h2 class="day-number" id="7">Day 7</h2>
+              <h3 class="day-topic">Stand-up meetings 101</h3>
+              <div class="video" data-video-index="6">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64f5e6a085e901001079a54f"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
+            <div class="carousel-item">
+              <h2 class="day-number" id="8">Day 8</h2>
+              <h3 class="day-topic">Project phases and deadlines</h3>
+              <div class="video" data-video-index="7">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64f820cfef83bb00186d6413"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
 
-        <h2 class="day-number" id="4">Day 4</h2>
-        <h3 class="day-topic">Effective communication in the IT workplace</h3>
-        <div class="video" data-video-index="3">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64f04ac9a6a18b0018154af6"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
+            <div class="carousel-item">
+              <h2 class="day-number" id="9">Day 9</h2>
+              <h3 class="day-topic">Dealing with workplace challenges</h3>
+              <div class="video" data-video-index="8">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/64f8b66e2addfa00173ab43b"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
 
-        <h2 class="day-number" id="5">Day 5</h2>
-        <h3 class="day-topic">Email communication skills in IT</h3>
-        <div class="video" data-video-index="4">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64f188d5fe7b2a0013d2f96e"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
+            <div class="carousel-item">
+              <h2 class="day-number" id="10">Day 10</h2>
+              <h3 class="day-topic">IT troubleshooting toolkit</h3>
+              <div class="video" data-video-index="9">
+                <img
+                  tabindex="0"
+                  src="./img/play_circle.svg"
+                  alt="Video placeholder 2"
+                  class="video-placeholder"
+                />
+              </div>
+              <form
+                action="https://view.genial.ly/650031b80024b400130cb192"
+                target="_blank"
+              >
+                <button class="practice">Practice</button>
+              </form>
+            </div>
 
-        <h2 class="day-number" id="6">Day 6</h2>
-        <h3 class="day-topic">Understanding SRS</h3>
-        <div class="video" data-video-index="5">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64f57fc5c39b0b0011ef4679"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
-
-        <h2 class="day-number" id="7">Day 7</h2>
-        <h3 class="day-topic">Stand-up meetings 101</h3>
-        <div class="video" data-video-index="6">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64f5e6a085e901001079a54f"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
-        <h2 class="day-number" id="8">Day 8</h2>
-        <h3 class="day-topic">Project phases and deadlines</h3>
-        <div class="video" data-video-index="7">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64f820cfef83bb00186d6413"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
-        <h2 class="day-number" id="9">Day 9</h2>
-        <h3 class="day-topic">Dealing with workplace challenges</h3>
-        <div class="video" data-video-index="8">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
-        </div>
-        <form
-          action="https://view.genial.ly/64f8b66e2addfa00173ab43b"
-          target="_blank"
-        >
-          <button class="practice">Practice</button>
-        </form>
-        <h2 class="day-number" id="10">Day 10</h2>
-        <h3 class="day-topic">IT troubleshooting toolkit</h3>
-        <div class="video" data-video-index="9">
-          <img
-            tabindex="0"
-            src="./img/play_circle.svg"
-            alt="Video placeholder 2"
-            class="video-placeholder"
-          />
+            <!-- <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+          </div>
         </div>
       </div>
-      <form
-        action="https://view.genial.ly/650031b80024b400130cb192"
-        target="_blank"
-      >
-        <button class="practice">Practice</button>
-      </form>
     </main>
 
     <!-- * Footer -->
@@ -242,6 +462,11 @@
       /></a>
     </div>
     <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="./js/arrow.js"></script>
     <script type="module" src="./js/video.js"></script>
     <script defer type="module" src="./js/select.js"></script>
