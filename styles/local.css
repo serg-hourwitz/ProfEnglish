@@ -219,6 +219,10 @@ select {
   .header {
     margin-bottom: 50px;
   }
+
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
 }
 
 @media (max-width: 1100px) {
