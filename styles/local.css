@@ -241,6 +241,12 @@ select {
   .main-title {
     font-size: var(--fs-large);
   }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: block;
+      top: -20% !important;
+    }
 }
 
 @media (max-width: 400px) {
